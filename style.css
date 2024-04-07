@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.container{
+    width: 1400px;
+}
+.head-logo img{
+     width: 70px;
+     height: 50px;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+.head-links a{
+    text-decoration: none;
+    left: 40px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+}
+.head-links a:hover{
+    color: rgb(16, 16, 16);
+    transition: 0.5s;
+}
+li{
+    display: inline;
+}
+.data h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 146, 12);
+    margin-top: 40px;
+}
+.data img{
+    width: 1100px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.sets{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sets-img img{
+    width: 600px;
+    height: 400px;
+}
+.gallery{
+    text-align: center;
+}
+.pics-all img{
+    width: 400px;
+    height: 300px;
+    margin-left: 80px;  
+}
+.pics-all{
+    padding: 10px;
+}
+.fotter{
+    background-color: rgb(57, 50, 50);
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.fotter1{
+    padding: 10px;
+}
+.fotter2{
+    font-size: 20px;
+    padding: 10px;
+}
+.fotter2 h5{
+    color: rgb(249, 148, 16);
+    font-size: 2rem;
+}
